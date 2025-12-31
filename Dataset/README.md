@@ -1,18 +1,15 @@
 ## Dataset Information
 
-This folder contains the raw dataset used for the Power BI Loan Default Risk Analysis project.
+This project uses data ingested through **Power BI Dataflow**.
 
-### Dataset Name
-Loan_default.csv
+Due to GitHub file size limitations, the raw dataset file is not uploaded to this repository.
 
-### Description
-The dataset includes customer demographic, financial, and loan-related attributes
-used to analyze default risk patterns and borrower behavior.
-
-### Usage
-- The dataset is ingested into Power BI using **Power BI Dataflow**
-- Data cleaning, transformation, and modeling are performed within the Dataflow
-- The cleaned data is then used to build the Power BI dashboard
+### Data Source
+- Power BI Dataflow
+- Centralized and reusable data transformation layer
+- Used as the primary data source for the Power BI report
 
 ### Note
-This dataset is provided for learning, analysis, and portfolio demonstration purposes only.
+The published Power BI Service dashboard contains the complete data model
+and can be accessed using the live report link provided in the main README.
+
